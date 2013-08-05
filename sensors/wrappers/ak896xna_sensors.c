@@ -115,10 +115,9 @@ struct akm_t akm = {
 		},
 		.access = {
 			.match = {
-				SENSOR_TYPE_ACCELEROMETER,
 				SENSOR_TYPE_MAGNETIC_FIELD,
 			},
-			.m_nr = 2,
+			.m_nr = 1,
 		},
 	},
 	.magnetic = {
